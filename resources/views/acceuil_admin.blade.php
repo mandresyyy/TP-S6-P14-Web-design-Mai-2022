@@ -13,7 +13,7 @@
                         <div class="card text-center mb-5">
                             <div class="card-header p-0">                                   
                                 <div class="blog-media">
-                                    <img src="{{asset('imgs/'.$article->photo)}}" alt="" class="w-100" height="300">
+                                    <img src="{{secure_asset('imgs/'.$article->photo)}}" alt="" class="w-100" height="300">
                                     <a href="#" class="badge badge-primary">{{$article->Ia->nom}}</a>        
                                 </div>  
                             </div>

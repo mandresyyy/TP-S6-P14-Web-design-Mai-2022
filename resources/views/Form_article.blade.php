@@ -1,6 +1,6 @@
 @extends("layouts.masteradmin")
 @section("content")
-<script src="{{asset('ckeditor/ckeditor.js')}}"></script>
+<script src="{{secure_asset('ckeditor/ckeditor.js')}}"></script>
 <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
         <div class="container">
           <div class="row justify-content-center">
@@ -8,7 +8,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <!-- <img src="{{asset('imgs/logo.svg')}}" style="width:50px;" alt="">
+                  <!-- <img src="{{secure_asset('imgs/logo.svg')}}" style="width:50px;" alt="">
                   <span class="d-none d-lg-block"></span> -->
                 </a>
               </div><!-- End Logo -->

@@ -7,9 +7,9 @@
     <meta name="author" content="Devcrud">
     <title>Blog IA : Toutes les dernières actualités et avancées en Intelligence Artificielle</title>
     <!-- font icons -->
-    <link rel="stylesheet" href="{{asset('vendors/themify-icons/css/themify-icons.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('vendors/themify-icons/css/themify-icons.css')}}">
     <!-- Bootstrap + JoeBLog main styles -->
-	<link rel="stylesheet" href="{{asset('css/joeblog.css')}}">
+	<link rel="stylesheet" href="{{secure_asset('css/joeblog.css')}}">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
@@ -17,7 +17,7 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="{{asset('imgs/logo.svg')}}" alt="">
+                <img src="{{secure_asset('imgs/logo.svg')}}" alt="">
             </a>
             <div class="socials">
                 <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="{{asset('imgs/logo.svg')}}" alt="" class="logo">
+                    <img src="{{secure_asset('imgs/logo.svg')}}" alt="" class="logo">
                 </div>
                 <div class="col-md-9 text-center text-md-right">
                     <div class="socials">
@@ -95,11 +95,11 @@
     <!-- End of Page Footer -->
     
 	<!-- core  -->
-    <script src="{{asset('vendors/jquery/jquery-3.4.1.js')}}"></script>
-    <script src="{{asset('vendors/bootstrap/bootstrap.bundle.js')}}"></script>
+    <script src="{{secure_asset('vendors/jquery/jquery-3.4.1.js')}}"></script>
+    <script src="{{secure_asset('vendors/bootstrap/bootstrap.bundle.js')}}"></script>
 
     <!-- JoeBLog js -->
-    <script src="{{asset('js/joeblog.js')}}"></script>
+    <script src="{{secure_asset('js/joeblog.js')}}"></script>
 
 </body>
 </html>

@@ -7,7 +7,7 @@
                         <br>
                         <h3 class="card-title mb-4">{{$Post->titre}}</h3>
                         <div class="blog-media mb-4">
-                            <img src="{{asset('imgs/'.$Post->photo)}}" alt="" class="w-100">
+                            <img src="{{secure_asset('imgs/'.$Post->photo)}}" alt="" class="w-100">
                             <a href="#" class="badge badge-primary">{{$Post->Ia->nom}}</a> 
                         </div>  
                         <small class="small text-muted">
